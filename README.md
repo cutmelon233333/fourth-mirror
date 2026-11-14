@@ -19,7 +19,7 @@
 
 | 內容 | 開啟方式 |
 |---|---|
-| 互動簡報（12 幕） | 直接用瀏覽器開啟 `slides/deck.html`（離線可用）。公開網址：**待部署後填入** |
+| 互動簡報（12 幕） | 直接用瀏覽器開啟 `slides/deck.html`（離線可用）。[公開網址](https://cutmelon233333.github.io/fourth-mirror/)|
 | Wiki（網頁版） | 開啟 `slides/wiki.html`（可搜尋；簡報右下角也有連結） |
 | Wiki（Markdown 原檔） | `wiki/index.md` → `wiki/concepts/`（9 個概念）、`wiki/sources/`（6 份來源）、`wiki/claims.json`（11 筆主張） |
 | Workflow 流程圖 | `workflow/fourth-mirror-workflow.png`（3840×2160，適合匯入 FigJam）；向量原檔 `workflow/fourth-mirror-workflow.svg`；文字說明 `workflow/graph.md`。FigJam：[第四面鏡 Workflow Graph](https://www.figma.com/board/ZvPNYyw8YTz3DzNUI49Wp5/%E7%AC%AC%E5%9B%9B%E9%9D%A2%E9%8F%A1-Workflow-Graph?node-id=0-1&t=5SNsFuIbsMc3QBfJ-1) |
