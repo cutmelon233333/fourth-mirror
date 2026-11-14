@@ -1,0 +1,123 @@
+[
+  {
+    "id": "S01",
+    "url": "https://www.mediastudies.press/pub/cooley-looking/release/3",
+    "title": "The Looking-Glass Self (excerpt from Human Nature and the Social Order)",
+    "capture_status": "ingested_verifiable_content",
+    "access_scope": "public domain 1902 excerpt verified (Ch. 5, pp. 183–184; 1922 rev. ed. pp. 151–152)",
+    "content_access_confirmed": true,
+    "source_body_in_repository": true,
+    "local_source_path": "raw/original/S01_verified_ingest.md",
+    "ingested_verifiable_content": true,
+    "license_reviewed_for_redistribution": true,
+    "verified_anchor": "Human Nature and the Social Order (1902), Ch. 5〈The Looking-Glass Self〉, pp. 183–184（1922 修訂版頁 149、151–153）。",
+    "retrieved_at": "2026-11-14T13:33:51+08:00",
+    "checksum_sha256": "a86f532976578238887dc9a60822f3af50cf22a553b1302a787f9e1d7efcc55c",
+    "notes": "已核實 1902 年公有領域原典第 5 章〈The Looking-Glass Self〉（pp. 183–184；1922 修訂版 pp. 151–152）逐字段落並存於 raw/original/S01_verified_ingest.md。",
+    "recheck": {
+      "date": "2026-11-15",
+      "path": "raw/original/S01_recheck_2026-11-15.md",
+      "result": "6 個片段中 5 個與登錄網址逐字相符；1 處僅拼寫／標點差異（judgement; vs judgment,），語意不變。"
+    }
+  },
+  {
+    "id": "S02",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34352724/",
+    "title": "Do people know how others view them? Two approaches for identifying the accuracy of metaperceptions",
+    "capture_status": "ingested_verifiable_content",
+    "access_scope": "abstract only (verified via NCBI Entrez E-utilities XML, PMID 34352724); full text not obtained",
+    "content_access_confirmed": true,
+    "source_body_in_repository": true,
+    "local_source_path": "raw/original/S02_verified_ingest.md",
+    "ingested_verifiable_content": true,
+    "license_reviewed_for_redistribution": true,
+    "verified_anchor": "PubMed PMID 34352724 官方摘要（Current Opinion in Psychology 2022, 43:190–195；DOI: 10.1016/j.copsyc.2021.06.018）。",
+    "retrieved_at": "2026-11-14T13:42:36+08:00",
+    "checksum_sha256": "8365c7e04b681454a29c2bd87c464fd0ffac626edc922e4c99a8b53a9ee01059",
+    "notes": "透過 NCBI Entrez E-utilities 官方 XML API（PMID 34352724, HTTP 200）擷取並核實完整公開摘要；明確標記 abstract_only，不宣稱已讀付費牆全文。",
+    "recheck": {
+      "date": "2026-11-15",
+      "result": "以程式重新讀取官方頁面／NCBI E-utilities，raw 節錄中的引文片段全數逐字相符（去除 Markdown 格式與省略號後比對）。"
+    }
+  },
+  {
+    "id": "S03",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jopy.70075",
+    "title": "How Well Do We Know How Others See Us? A Systematic Review of Meta-Accuracy",
+    "capture_status": "ingested_verifiable_content",
+    "access_scope": "PubMed structured abstract verified via NCBI E-utilities (PMID 42083441); Wiley full-text page gated by Cloudflare 403",
+    "content_access_confirmed": true,
+    "source_body_in_repository": true,
+    "local_source_path": "raw/original/S03_verified_ingest.md",
+    "ingested_verifiable_content": true,
+    "license_reviewed_for_redistribution": true,
+    "verified_anchor": "PubMed PMID 42083441 結構化摘要（Introduction, Method, Results, Conclusion）；DOI: 10.1111/jopy.70075。",
+    "retrieved_at": "2026-11-14T13:42:36+08:00",
+    "checksum_sha256": "4d50319a3703257a4cd18764da52b3dc97b08c88ed0b2331536f0e3202fcd28c",
+    "notes": "透過 NCBI Entrez E-utilities 官方 XML API（PMID 42083441, HTTP 200）擷取並核實完整結構化摘要（Intro/Method/Results/Conclusion）；Wiley 網頁對程式請求回傳 Cloudflare 403，故 C05 與 S03 錨點以 PubMed 結構化摘要為準。",
+    "recheck": {
+      "date": "2026-11-15",
+      "result": "以程式重新讀取官方頁面／NCBI E-utilities，raw 節錄中的引文片段全數逐字相符（去除 Markdown 格式與省略號後比對）。"
+    }
+  },
+  {
+    "id": "S04",
+    "url": "https://plato.stanford.edu/entries/identity-personal/",
+    "title": "Personal Identity",
+    "capture_status": "ingested_verifiable_content",
+    "access_scope": "full encyclopedia entry verified (HTTP 200 HTML; Preamble & Sections 1–4)",
+    "content_access_confirmed": true,
+    "source_body_in_repository": true,
+    "local_source_path": "raw/original/S04_verified_ingest.md",
+    "ingested_verifiable_content": true,
+    "license_reviewed_for_redistribution": true,
+    "verified_anchor": "Preamble (`#preamble`) & Section 1 `1. The Problems of Personal Identity` (`#ProbPersIden`：Characterization, Personhood, Persistence, Evidence, Population, Personal ontology)；2023-06-30 修訂版。",
+    "retrieved_at": "2026-11-14T13:36:21+08:00",
+    "checksum_sha256": "30921546798e3b272fff1b34d26344c0e7914856cc6cc344b61cd7eda6f03a6f",
+    "notes": "直接以 HTTP 200 讀取 Stanford Encyclopedia of Philosophy〈Personal Identity〉（Eric T. Olson, 2023-06-30 rev.），核實 Preamble 與 Section 1（#ProbPersIden）並保存限定引文與錨點。",
+    "recheck": {
+      "date": "2026-11-15",
+      "result": "以程式重新讀取官方頁面／NCBI E-utilities，raw 節錄中的引文片段全數逐字相符（去除 Markdown 格式與省略號後比對）。"
+    }
+  },
+  {
+    "id": "S05",
+    "url": "https://accesstoinsight.org/tipitaka/sn/sn22/sn22.059.nymo.html",
+    "title": "SN 22.59 — Anatta-lakkhana Sutta",
+    "capture_status": "ingested_verifiable_content",
+    "access_scope": "full translated sutta verified (HTTP 200 HTML; 20 paragraphs in chapter body)",
+    "content_access_confirmed": true,
+    "source_body_in_repository": true,
+    "local_source_path": "raw/original/S05_verified_ingest.md",
+    "ingested_verifiable_content": true,
+    "license_reviewed_for_redistribution": true,
+    "verified_anchor": "SN 22.59 (PTS S iii 66) 全篇 `<div class=\"chapter\">` 第 1–20 段，Access to Insight，Ñāṇamoli Thera 英譯（1981 BPS / 1993 ATI）。",
+    "retrieved_at": "2026-11-14T13:36:21+08:00",
+    "checksum_sha256": "b8aa6cbb04ca197366ce58700380c0bd062555677c073d3622265a4ac11cc7f1",
+    "notes": "直接以 HTTP 200 讀取 Access to Insight〈Anatta-lakkhana Sutta〉（SN 22.59, Ñāṇamoli Thera 英譯全篇 20 段），核實五蘊非我論證與 BPS 授權條款。",
+    "recheck": {
+      "date": "2026-11-15",
+      "result": "以程式重新讀取官方頁面／NCBI E-utilities，raw 節錄中的引文片段全數逐字相符（去除 Markdown 格式與省略號後比對）。"
+    }
+  },
+  {
+    "id": "S06",
+    "url": "https://plato.stanford.edu/entries/mind-indian-buddhism/",
+    "title": "Mind in Indian Buddhist Philosophy",
+    "capture_status": "ingested_verifiable_content",
+    "access_scope": "full encyclopedia entry verified (HTTP 200 HTML; Preamble, §1.1, §2.1–2.3)",
+    "content_access_confirmed": true,
+    "source_body_in_repository": true,
+    "local_source_path": "raw/original/S06_verified_ingest.md",
+    "ingested_verifiable_content": true,
+    "license_reviewed_for_redistribution": true,
+    "verified_anchor": "Preamble (`#preamble`), Section 1.1 `1.1 The Not-Self Doctrine` (`#1.1`), Section 2.1 (`#2.1`) & Section 2.3 `2.3 The Five Aggregates` (`#2.3`)；2012-10-12 修訂版。",
+    "retrieved_at": "2026-11-14T13:36:21+08:00",
+    "checksum_sha256": "08a73e7c4580bdf9d167d472f8e8e039ca4cff2464cca864d4e20c3462b1b81f",
+    "notes": "直接以 HTTP 200 讀取 Stanford Encyclopedia of Philosophy〈Mind in Indian Buddhist Philosophy〉（Christian Coseru, 2012-10-12 rev.），核實 Preamble、§1.1（#1.1）與 §2.3（#2.3）。",
+    "recheck": {
+      "date": "2026-11-15",
+      "result": "以程式重新讀取官方頁面／NCBI E-utilities，raw 節錄中的引文片段全數逐字相符（去除 Markdown 格式與省略號後比對）。"
+    }
+  }
+]

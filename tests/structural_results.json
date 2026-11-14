@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "sources_registered": 6,
+  "claims": 11,
+  "concept_pages": 9,
+  "slides": 12,
+  "fixtures": [
+    {
+      "fixture": "PERSPECTIVE-MIXUP",
+      "expected": "Self 3 的猜測被標作 Self 2",
+      "detected": [
+        "Self 3 的猜測被標作 Self 2"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "BUDDHIST-MISATTRIBUTION",
+      "expected": "四面鏡被錯誤歸為佛教原典",
+      "detected": [
+        "四面鏡被錯誤歸為佛教原典"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "MISSING-EVIDENCE",
+      "expected": "來源缺漏",
+      "detected": [
+        "來源缺漏"
+      ],
+      "passed": true
+    }
+  ],
+  "issues": []
+}

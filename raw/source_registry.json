@@ -1,0 +1,92 @@
+[
+  {
+    "id": "S01",
+    "author": "Charles Horton Cooley",
+    "year": "1902",
+    "title": "The Looking-Glass Self (excerpt from Human Nature and the Social Order)",
+    "url": "https://www.mediastudies.press/pub/cooley-looking/release/3",
+    "access": "public domain 1902 excerpt verified (Ch. 5, pp. 183–184; 1922 rev. ed. pp. 151–152)",
+    "scope": "鏡中自我：自我感受受到想像中的他人看法與評判影響。",
+    "finding": [
+      "Cooley 的分析包含三個主要元素：想像自己在他人眼中的呈現、想像他人對該呈現的評判，以及由此產生的自我感受（如自豪或羞愧）。",
+      "鏡中自我與機械式的物理反射不同：觸動自豪或羞愧的核心是當事人歸因／想像的他人情感與評價（imputed sentiment / imagined judgment）。"
+    ],
+    "limitation": "歷史性社會理論文本，不是驗證任何個人心中猜測一定準確的實驗，亦未提出本作的 Self 1–4 分類。",
+    "anchor": "Human Nature and the Social Order (1902), Ch. 5〈The Looking-Glass Self〉, pp. 183–184（1922 修訂版頁 149、151–153）。"
+  },
+  {
+    "id": "S02",
+    "author": "Kristin Donnelly, Alice J. Moon, Clayton R. Critcher",
+    "year": "2022",
+    "title": "Do people know how others view them? Two approaches for identifying the accuracy of metaperceptions",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34352724/",
+    "access": "abstract only (verified via NCBI Entrez E-utilities XML, PMID 34352724); full text not obtained",
+    "scope": "區分自我知覺（self-perceptions）、他人對自己的實際看法（social perceptions）與本人推測別人看法（metaperceptions）。",
+    "finding": [
+      "後設知覺準確度（meta-accuracy）可用相關性方法（correlational approach，檢驗與實際 social perceptions 的共變）或平均程度偏誤（mean-level approach，檢驗系統性高估或低估）來研究。",
+      "研究者指出兩種準確度標準提供互補洞見，沒有哪一種無條件優於另一種，應視該後設知覺所引導的決策情境而定。"
+    ],
+    "limitation": "本專案直接查證的是 PubMed 官方公開摘要（PMID 34352724），不得把未看到的 Elsevier 付費牆內文細節寫成已讀內容。",
+    "anchor": "PubMed PMID 34352724 官方摘要（Current Opinion in Psychology 2022, 43:190–195；DOI: 10.1016/j.copsyc.2021.06.018）。"
+  },
+  {
+    "id": "S03",
+    "author": "Craig Harper et al.",
+    "year": "2026",
+    "title": "How Well Do We Know How Others See Us? A Systematic Review of Meta-Accuracy",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jopy.70075",
+    "access": "PubMed structured abstract verified via NCBI E-utilities (PMID 42083441); Wiley full-text page gated by Cloudflare 403",
+    "scope": "系統性回顧 93 篇後設知覺準確度實證研究的方法、關係情境差異與取樣限制。",
+    "finding": [
+      "93 篇納入研究分為雙人特定對象後設準確度（dyadic meta-accuracy, DMA；k = 56, 60.2%）、一般化後設準確度（generalized meta-accuracy, GMA；k = 17, 18.3%）與混合取向（k = 20, 21.5%），兩者在互動場域與熟識程度上有顯著差異。",
+      "既有研究高達 94.6%（k = 88）為橫斷面設計，且 64.5%（k = 60）樣本集中於大專學生，測量方法亦不一致，結果不能一概推及所有人際關係或單一因果結局。"
+    ],
+    "limitation": "統合現有實證研究之結構化摘要，不代表任何單一模擬故事或分支結局已被實證。",
+    "anchor": "PubMed PMID 42083441 結構化摘要（Introduction, Method, Results, Conclusion）；DOI: 10.1111/jopy.70075。"
+  },
+  {
+    "id": "S04",
+    "author": "Eric T. Olson (Stanford Encyclopedia of Philosophy)",
+    "year": "2023 revised",
+    "title": "Personal Identity",
+    "url": "https://plato.stanford.edu/entries/identity-personal/",
+    "access": "full encyclopedia entry verified (HTTP 200 HTML; Preamble & Sections 1–4)",
+    "scope": "區分人格特徵／自我描述問題（Characterization Question）與跨時間持續同一個人的形上學問題（Persistence Question）。",
+    "finding": [
+      "日常詢問「我是哪種人／哪些特質定義了我」（characterization question，會隨時間與情境改變）與哲學上詢問「什麼條件讓今天和明天的我是數值上同一個人」（persistence question）不是同一個問題。",
+      "個人同一性還涉及存有論（personal ontology：我們是生物有機體、非物質靈魂，還是如 Hume 所說的知覺束 bundle of perceptions），存在多種競爭理論，不能用一次人際互動直接作出定論。"
+    ],
+    "limitation": "主要討論西方分析哲學問題的分類與爭辯；並未提出本專案的四面鏡（Self 1–4）教學模型。",
+    "anchor": "Preamble (`#preamble`) & Section 1 `1. The Problems of Personal Identity` (`#ProbPersIden`：Characterization, Personhood, Persistence, Evidence, Population, Personal ontology)；2023-06-30 修訂版。"
+  },
+  {
+    "id": "S05",
+    "author": "Ñāṇamoli Thera (translator)",
+    "year": "1993 translation",
+    "title": "SN 22.59 — Anatta-lakkhana Sutta",
+    "url": "https://accesstoinsight.org/tipitaka/sn/sn22/sn22.059.nymo.html",
+    "access": "full translated sutta verified (HTTP 200 HTML; 20 paragraphs in chapter body)",
+    "scope": "《無我相經》探討五蘊：色（form）、受（feeling）、想（perception）、行（determinations）、識（consciousness），不可視作恆常、可任意主宰的自我。",
+    "finding": [
+      "經文逐一論及色、受、想、行、識的非我（not-self）性質：若五蘊是我，則不會導致苦惱，且應能隨意令其「如是、勿如是（Let my form be thus, let my form be not thus）」。",
+      "經文以無常、苦、變易三問答，引導修行者對五蘊如實正觀：「這不是我的，這不是我，這不是我的自我（This is not mine, this is not I, this is not myself）」；五蘊與本專案的 Self 1～4 不存在一對一的傳統分類對應。"
+    ],
+    "limitation": "這是巴利經藏的英語譯本；佛教詮釋需注意不同傳承及譯詞，勿將「無我／非我」粗糙簡化成「經驗中的人根本不存在」。",
+    "anchor": "SN 22.59 (PTS S iii 66) 全篇 `<div class=\"chapter\">` 第 1–20 段，Access to Insight，Ñāṇamoli Thera 英譯（1981 BPS / 1993 ATI）。"
+  },
+  {
+    "id": "S06",
+    "author": "Christian Coseru (Stanford Encyclopedia of Philosophy)",
+    "year": "2012 revised",
+    "title": "Mind in Indian Buddhist Philosophy",
+    "url": "https://plato.stanford.edu/entries/mind-indian-buddhism/",
+    "access": "full encyclopedia entry verified (HTTP 200 HTML; Preamble, §1.1, §2.1–2.3)",
+    "scope": "概述印度佛教心智理論、無我論（Not-Self Doctrine）、五蘊（Five Aggregates）與哲學詮釋上的爭議。",
+    "finding": [
+      "佛教心智論以相互關聯的身心過程與五蘊（色 rūpa、受 vedanā、想 saṃjña、行 saṃskāra、識 vijñāna）分析經驗，否定恆常、獨立不變的實體自我或行為主體（substantive, independent, and enduring self or agent / kartṛ）。",
+      "歷史上部派佛教（如犢子部／補特伽羅論者 Pudgalavādins 與世親《俱舍論》）與當代學者（如 Collins、Harvey、Oetke 等）對無我如何解釋業力責任與經驗連續性存在深入爭論，不能把無我粗糙當作虛無主義或單一現代摘要。"
+    ],
+    "limitation": "學術百科的綜述，不是 Self 1～4 教學分類的來源。",
+    "anchor": "Preamble (`#preamble`), Section 1.1 `1.1 The Not-Self Doctrine` (`#1.1`), Section 2.1 (`#2.1`) & Section 2.3 `2.3 The Five Aggregates` (`#2.3`)；2012-10-12 修訂版。"
+  }
+]

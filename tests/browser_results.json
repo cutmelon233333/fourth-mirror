@@ -1,0 +1,180 @@
+{
+  "checks": [
+    {
+      "test": "desktop initial title",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop pages",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop keyboard Enter selects reaction",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop reaction persists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop self3 reflecting choice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop branch story",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop alternate route",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop quiz correct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop buddhist aggregate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop final reflection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop source drawer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop Escape closes drawer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop restart clears",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "desktop no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      }
+    },
+    {
+      "test": "desktop no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "test": "mobile initial title",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile pages",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile keyboard Enter selects reaction",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile reaction persists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile self3 reflecting choice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile branch story",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile alternate route",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile quiz correct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile buddhist aggregate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile final reflection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile source drawer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile Escape closes drawer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile restart clears",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "mobile no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    {
+      "test": "mobile no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "test": "wiki pages",
+      "pass": true,
+      "detail": 15
+    },
+    {
+      "test": "wiki search",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "deck -> wiki relative link",
+      "pass": true,
+      "detail": "http://127.0.0.1:49790/slides/wiki.html"
+    }
+  ],
+  "issues": [],
+  "execution_mode": "real browser navigating http://127.0.0.1:49790/slides/deck.html via local HTTP server",
+  "browser_platform": "Windows-11-10.0.26200-SP0",
+  "browser": "chrome 157.0.8103.78",
+  "status": "PASS"
+}

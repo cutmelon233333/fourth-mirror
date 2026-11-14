@@ -1,0 +1,5 @@
+[
+  {"id":"PERSPECTIVE-MIXUP", "claim":{"id":"BAD01","kind":"scholarly","claim":"我想他討厭我，所以他討厭我","sources":["S02"],"view":"self2","speaker_status":"inferred"},"expect":"Self 3 的猜測被標作 Self 2"},
+  {"id":"BUDDHIST-MISATTRIBUTION", "claim":{"id":"BAD02","kind":"editorial","claim":"四面鏡是佛教經典正式分類","sources":["S05"],"view":"meta","origin":"buddhist-canonical"},"expect":"四面鏡被錯誤歸為佛教原典"},
+  {"id":"MISSING-EVIDENCE", "claim":{"id":"BAD03","kind":"scholarly","claim":"新研究證明所有人後設知覺都錯","sources":[],"view":"self3"},"expect":"來源缺漏"}
+]

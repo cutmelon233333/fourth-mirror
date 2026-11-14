@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+
+  <!-- Canvas Background: transparent (16:9, 1920x1080) -->
+
+  <!-- Header -->
+  <text x="40" y="44" fill="#0f172a" font-size="26" font-weight="800" letter-spacing="0.52" font-family="Noto Sans TC">The Fourth Mirror — Knowledge-to-Experience Graph</text>
+  <text x="40" y="68" fill="#a16207" font-size="14" font-weight="600" letter-spacing="0.84" font-family="Noto Sans TC">Evidence provenance × Perspective boundaries × Interactive learning（《第四面鏡：我是誰？》正式流程與回退規格圖）</text>
+  <text x="1880" y="44" text-anchor="end" fill="#475569" font-size="10.5" font-family="Noto Sans TC">Max retries per error type: 3 | Unverified source = STOP</text>
+  <text x="1880" y="64" text-anchor="end" fill="#475569" font-size="12" font-family="Noto Sans TC">本專案以觀點來源（Perspective Provenance）為主軸：通過觀點邊界與佛教歸因雙關卡後才進入 Wiki 與 12 幕互動情境。</text>
+
+  <!-- ===================================================================== -->
+  <!-- FRAME 1: Engineering Workflow (Main Required Deliverable)             -->
+  <!-- ===================================================================== -->
+  <rect x="30" y="84" width="1860" height="660" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" rx="16"/>
+  <text x="52" y="112" fill="#475569" font-size="13" font-weight="700" letter-spacing="1.04" font-family="Noto Sans TC">FRAME 1 — ENGINEERING WORKFLOW（由左至右主幹 A → K ＋ 下方局部回退迴圈）</text>
+
+  <!-- MAIN HORIZONTAL TRUNK NODES (Y center = 250) -->
+
+  <!-- Node A: Scope & acceptance -->
+  <g transform="translate(48, 175)">
+    <rect width="142" height="145" fill="#f1f5f9" stroke="#64748b" stroke-width="2.2" rx="10"/>
+    <text x="10" y="20" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">A · 人工 + AI</text>
+    <text x="10" y="38" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Scope &amp; acceptance</text>
+    <text x="10" y="58" fill="#475569" font-size="10.5" font-family="Noto Sans TC">In: 產品需求、已定案創意</text>
+    <text x="10" y="76" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Out: README（產品說明）</text>
+    <text x="10" y="92" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">需求與驗收標準</text>
+    <text x="10" y="112" fill="#475569" font-size="10.5" font-family="Noto Sans TC">Baseline 檢查與落差盤點</text>
+    <text x="10" y="130" fill="#475569" font-size="10.5" font-family="Noto Sans TC">（先跑檢查再修改）</text>
+  </g>
+
+  <!-- Node B: Source ingest -->
+  <g transform="translate(212, 175)">
+    <rect width="148" height="145" fill="#f3e8ff" stroke="#9333ea" stroke-width="2.2" rx="12"/>
+    <text x="10" y="20" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">B · AI + 人工權利核查</text>
+    <text x="10" y="38" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Source ingest (≥5)</text>
+    <text x="10" y="58" fill="#475569" font-size="10.5" font-family="Noto Sans TC">In: 5+ 份實際可讀文獻</text>
+    <text x="10" y="76" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Out: S01..S06 驗證紀錄</text>
+    <text x="10" y="92" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">ingest_manifest.json</text>
+    <text x="10" y="112" fill="#475569" font-size="10.5" font-family="Noto Sans TC">含段落錨點、存取範圍</text>
+    <text x="10" y="130" fill="#475569" font-size="10.5" font-family="Noto Sans TC">日期與 SHA-256 校驗</text>
+  </g>
+
+  <!-- Node C: Claim & viewpoint extraction -->
+  <g transform="translate(382, 175)">
+    <rect width="154" height="145" fill="#dbeafe" stroke="#2563eb" stroke-width="2.2" rx="12"/>
+    <text x="10" y="20" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">C · AI 執行節點</text>
+    <text x="10" y="38" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Claim &amp; viewpoint</text>
+    <text x="10" y="54" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">extraction</text>
+    <text x="10" y="74" fill="#475569" font-size="10.5" font-family="Noto Sans TC">In: 已核實原始資料內容</text>
+    <text x="10" y="92" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Out: wiki/claims.json</text>
+    <text x="10" y="110" fill="#475569" font-size="10.5" font-family="Noto Sans TC">標記 speaker / view</text>
+    <text x="10" y="128" fill="#475569" font-size="10.5" font-family="Noto Sans TC">source / epistemic status</text>
+  </g>
+
+  <!-- Node D: Perspective Gate (Diamond) -->
+  <g transform="translate(558, 165)">
+    <polygon points="82,0 164,82 82,164 0,82" fill="#fef3c7" stroke="#d97706" stroke-width="2.4"/>
+    <text x="82" y="48" text-anchor="middle" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">D · 規則 + 查核</text>
+    <text x="82" y="68" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Perspective Gate</text>
+    <text x="82" y="88" text-anchor="middle" fill="#475569" font-size="10.5" font-family="Noto Sans TC">Self 2 ≠ Self 3</text>
+    <text x="82" y="104" text-anchor="middle" fill="#475569" font-size="10.5" font-family="Noto Sans TC">有無把本人猜測</text>
+    <text x="82" y="120" text-anchor="middle" fill="#475569" font-size="10.5" font-family="Noto Sans TC">當成他人實際評價?</text>
+  </g>
+
+  <!-- Node E: Doctrine / Evidence Gate (Diamond) -->
+  <g transform="translate(748, 165)">
+    <polygon points="86,0 172,82 86,164 0,82" fill="#fef3c7" stroke="#d97706" stroke-width="2.4"/>
+    <text x="86" y="45" text-anchor="middle" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">E · 獨立核對 + 規則</text>
+    <text x="86" y="64" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Doctrine /</text>
+    <text x="86" y="80" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Evidence Gate</text>
+    <text x="86" y="98" text-anchor="middle" fill="#475569" font-size="10.5" font-family="Noto Sans TC">佛教歸因正確? 原文可核對?</text>
+    <text x="86" y="114" text-anchor="middle" fill="#475569" font-size="10.5" font-family="Noto Sans TC">四面鏡未冒充原典?</text>
+    <text x="86" y="130" text-anchor="middle" fill="#475569" font-size="10.5" font-family="Noto Sans TC">摘要未冒充全文?</text>
+  </g>
+
+  <!-- Node F: Wiki update & lint -->
+  <g transform="translate(946, 175)">
+    <rect width="148" height="145" fill="#f3e8ff" stroke="#9333ea" stroke-width="2.2" rx="12"/>
+    <text x="10" y="20" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">F · AI + 腳本</text>
+    <text x="10" y="38" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Wiki update &amp; lint</text>
+    <text x="10" y="58" fill="#475569" font-size="10.5" font-family="Noto Sans TC">In: 已通過 Gate 之 Claims</text>
+    <text x="10" y="76" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Out: concepts/ sources/</text>
+    <text x="10" y="92" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">wiki.html (單行JSON合法)</text>
+    <text x="10" y="112" fill="#475569" font-size="10.5" font-family="Noto Sans TC">前置檢查: frontmatter</text>
+    <text x="10" y="130" fill="#475569" font-size="10.5" font-family="Noto Sans TC">同步 / 禁未渲染 $LaTeX$</text>
+  </g>
+
+  <!-- Node G: Experience storyboard -->
+  <g transform="translate(1116, 175)">
+    <rect width="148" height="145" fill="#dcfce7" stroke="#16a34a" stroke-width="2.2" rx="10"/>
+    <text x="10" y="20" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">G · 腳本映射</text>
+    <text x="10" y="38" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Experience</text>
+    <text x="10" y="54" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">storyboard</text>
+    <text x="10" y="74" fill="#475569" font-size="10.5" font-family="Noto Sans TC">In: Wiki + 教學目標</text>
+    <text x="10" y="92" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Out: scene_claim_map</text>
+    <text x="10" y="110" fill="#475569" font-size="10.5" font-family="Noto Sans TC">前置檢查: 12 幕</text>
+    <text x="10" y="128" fill="#475569" font-size="10.5" font-family="Noto Sans TC">claim/source 聯集一致</text>
+  </g>
+
+  <!-- Node H: HTML build -->
+  <g transform="translate(1286, 175)">
+    <rect width="144" height="145" fill="#dbeafe" stroke="#2563eb" stroke-width="2.2" rx="12"/>
+    <text x="10" y="20" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">H · 建構與實測</text>
+    <text x="10" y="38" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">HTML build</text>
+    <text x="10" y="58" fill="#475569" font-size="10.5" font-family="Noto Sans TC">In: 已通過之腳本映射</text>
+    <text x="10" y="76" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Out: slides/deck.html</text>
+    <text x="10" y="92" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">browser_test.py 實測</text>
+    <text x="10" y="112" fill="#475569" font-size="10.5" font-family="Noto Sans TC">前置檢查: ARIA / p結構</text>
+    <text x="10" y="130" fill="#475569" font-size="10.5" font-family="Noto Sans TC">S02/S03 摘要範圍揭露</text>
+  </g>
+
+  <!-- Node I: Browser & teaching QA (Diamond) -->
+  <g transform="translate(1450, 165)">
+    <polygon points="84,0 168,82 84,164 0,82" fill="#fef3c7" stroke="#d97706" stroke-width="2.4"/>
+    <text x="84" y="46" text-anchor="middle" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">I · 腳本 + 獨立 AI</text>
+    <text x="84" y="65" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Browser &amp;</text>
+    <text x="84" y="81" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">teaching QA</text>
+    <text x="84" y="99" text-anchor="middle" fill="#475569" font-size="10.5" font-family="Noto Sans TC">桌機/手機互動、無障礙</text>
+    <text x="84" y="115" text-anchor="middle" fill="#475569" font-size="10.5" font-family="Noto Sans TC">隔離生成脈絡之獨立盲審</text>
+  </g>
+
+  <!-- Node J: Evidence & review -->
+  <g transform="translate(1638, 175)">
+    <rect width="112" height="145" fill="#dcfce7" stroke="#16a34a" stroke-width="2.2" rx="10"/>
+    <text x="8" y="20" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">J · AI + 人工</text>
+    <text x="8" y="38" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Evidence &amp;</text>
+    <text x="8" y="54" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">review</text>
+    <text x="8" y="74" fill="#475569" font-size="10.5" font-family="Noto Sans TC">In: 各關卡檢查輸出</text>
+    <text x="8" y="92" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Out: tests/ 結果 JSON</text>
+    <text x="8" y="110" fill="#475569" font-size="10.5" font-family="Noto Sans TC">前後差異、回退數</text>
+    <text x="8" y="128" fill="#475569" font-size="10.5" font-family="Noto Sans TC">錯誤統計與改善</text>
+  </g>
+
+  <!-- Node K: Publish + human sign-off -->
+  <g transform="translate(1768, 175)">
+    <rect width="108" height="145" fill="#f1f5f9" stroke="#64748b" stroke-width="2.2" rx="10"/>
+    <text x="8" y="20" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">K · 人工簽核</text>
+    <text x="8" y="38" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Publish +</text>
+    <text x="8" y="54" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">sign-off</text>
+    <text x="8" y="74" fill="#475569" font-size="10.5" font-family="Noto Sans TC">In: 已驗收成品</text>
+    <text x="8" y="92" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Out: HTML URL</text>
+    <text x="8" y="108" fill="#1d4ed8" font-size="10" font-family="Noto Sans TC">Wiki 網頁</text>
+    <text x="8" y="128" fill="#475569" font-size="10.5" font-family="Noto Sans TC">公開權限人工確認</text>
+  </g>
+
+  <!-- FORWARD ARROWS (A -> K) -->
+  <line x1="190" y1="247" x2="210" y2="247" stroke="#64748b" stroke-width="2.2" fill="none"/><polygon points="211.5,247.0 199.5,252.5 199.5,241.5" fill="#64748b"/>
+  <line x1="360" y1="247" x2="380" y2="247" stroke="#64748b" stroke-width="2.2" fill="none"/><polygon points="381.5,247.0 369.5,252.5 369.5,241.5" fill="#64748b"/>
+  <line x1="536" y1="247" x2="556" y2="247" stroke="#64748b" stroke-width="2.2" fill="none"/><polygon points="557.5,247.0 545.5,252.5 545.5,241.5" fill="#64748b"/>
+  <line x1="722" y1="247" x2="746" y2="247" stroke="#16a34a" stroke-width="2.2" fill="none"/><polygon points="747.5,247.0 735.5,252.5 735.5,241.5" fill="#16a34a"/>
+  <text x="734" y="238" text-anchor="middle" fill="#15803d" font-size="10" font-weight="700" font-family="Noto Sans TC">PASS</text>
+  <line x1="920" y1="247" x2="944" y2="247" stroke="#16a34a" stroke-width="2.2" fill="none"/><polygon points="945.5,247.0 933.5,252.5 933.5,241.5" fill="#16a34a"/>
+  <text x="932" y="238" text-anchor="middle" fill="#15803d" font-size="10" font-weight="700" font-family="Noto Sans TC">PASS</text>
+  <line x1="1094" y1="247" x2="1114" y2="247" stroke="#16a34a" stroke-width="2.2" fill="none"/><polygon points="1115.5,247.0 1103.5,252.5 1103.5,241.5" fill="#16a34a"/>
+  <text x="1104" y="238" text-anchor="middle" fill="#15803d" font-size="10" font-weight="700" font-family="Noto Sans TC">PASS</text>
+  <line x1="1264" y1="247" x2="1284" y2="247" stroke="#64748b" stroke-width="2.2" fill="none"/><polygon points="1285.5,247.0 1273.5,252.5 1273.5,241.5" fill="#64748b"/>
+  <line x1="1430" y1="247" x2="1448" y2="247" stroke="#64748b" stroke-width="2.2" fill="none"/><polygon points="1449.5,247.0 1437.5,252.5 1437.5,241.5" fill="#64748b"/>
+  <line x1="1618" y1="247" x2="1636" y2="247" stroke="#16a34a" stroke-width="2.2" fill="none"/><polygon points="1637.5,247.0 1625.5,252.5 1625.5,241.5" fill="#16a34a"/>
+  <text x="1627" y="238" text-anchor="middle" fill="#15803d" font-size="10" font-weight="700" font-family="Noto Sans TC">PASS</text>
+  <line x1="1750" y1="247" x2="1766" y2="247" stroke="#64748b" stroke-width="2.2" fill="none"/><polygon points="1767.5,247.0 1755.5,252.5 1755.5,241.5" fill="#64748b"/>
+
+  <!-- ===================================================================== -->
+  <!-- TARGETED FALLBACK LOOPS (Red Dashed Arrows Below Main Trunk)          -->
+  <!-- ===================================================================== -->
+
+  <!-- Loop 1: D -> C (Perspective mixup: Self 3 guessed as Self 2) -->
+  <path d="M 640 329 L 640 375 L 445 375 L 445 322" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="445.0,320.5 450.5,332.5 439.5,332.5" fill="#dc2626"/>
+  <rect x="462" y="362" width="166" height="22" fill="#fff1f2" stroke="#fca5a5" stroke-width="1" rx="5"/>
+  <text x="545" y="377" text-anchor="middle" fill="#b91c1c" font-size="10.5" font-weight="600" font-family="Noto Sans TC">D → C：把猜測當他人實際評價（只修 Claim）</text>
+
+  <!-- Loop 2: E -> C (Misattribution / anchor mismatch) -->
+  <path d="M 815 329 L 815 415 L 470 415 L 470 322" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="470.0,320.5 475.5,332.5 464.5,332.5" fill="#dc2626"/>
+  <rect x="530" y="402" width="230" height="22" fill="#fff1f2" stroke="#fca5a5" stroke-width="1" rx="5"/>
+  <text x="645" y="417" text-anchor="middle" fill="#b91c1c" font-size="10.5" font-weight="600" font-family="Noto Sans TC">E → C：主張歸因或錨點表述錯（只修相關 Claim）</text>
+
+  <!-- Loop 3: E -> B (Insufficient source evidence / blocked access) -->
+  <path d="M 850 329 L 850 458 L 285 458 L 285 322" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="285.0,320.5 290.5,332.5 279.5,332.5" fill="#dc2626"/>
+  <rect x="425" y="445" width="295" height="22" fill="#fff1f2" stroke="#fca5a5" stroke-width="1" rx="5"/>
+  <text x="572" y="460" text-anchor="middle" fill="#b91c1c" font-size="10.5" font-weight="600" font-family="Noto Sans TC">E → B：原文無足夠證據／端點受阻（回來源重驗或停止）</text>
+
+  <!-- Loop 4: F -> F (Local Wiki crosslink/index fix) -->
+  <path d="M 1045 320 L 1045 365 L 995 365 L 995 322" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="995.0,320.5 1000.5,332.5 989.5,332.5" fill="#dc2626"/>
+  <rect x="955" y="370" width="145" height="22" fill="#fff1f2" stroke="#fca5a5" stroke-width="1" rx="5"/>
+  <text x="1027" y="385" text-anchor="middle" fill="#b91c1c" font-size="10.5" font-weight="600" font-family="Noto Sans TC">F → F：連結壞掉（局部修 Wiki）</text>
+
+  <!-- Loop 5: F -> C (Wiki error caused by upstream Claim) -->
+  <path d="M 970 320 L 970 502 L 495 502 L 495 322" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="495.0,320.5 500.5,332.5 489.5,332.5" fill="#dc2626"/>
+  <rect x="615" y="489" width="235" height="22" fill="#fff1f2" stroke="#fca5a5" stroke-width="1" rx="5"/>
+  <text x="732" y="504" text-anchor="middle" fill="#b91c1c" font-size="10.5" font-weight="600" font-family="Noto Sans TC">F → C：Wiki 頁內容錯來自上游 Claim</text>
+
+  <!-- Loop 6: I -> H (UI / mobile overflow / JS failure) -->
+  <path d="M 1510 329 L 1510 385 L 1358 385 L 1358 322" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="1358.0,320.5 1363.5,332.5 1352.5,332.5" fill="#dc2626"/>
+  <rect x="1350" y="390" width="185" height="22" fill="#fff1f2" stroke="#fca5a5" stroke-width="1" rx="5"/>
+  <text x="1442" y="405" text-anchor="middle" fill="#b91c1c" font-size="10.5" font-weight="600" font-family="Noto Sans TC">I → H：按鈕/手機排版/JS 失效（只修 HTML）</text>
+
+  <!-- Loop 7: I -> G (Teaching sequence or story branch unclear) -->
+  <path d="M 1534 329 L 1534 445 L 1190 445 L 1190 322" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="1190.0,320.5 1195.5,332.5 1184.5,332.5" fill="#dc2626"/>
+  <rect x="1245" y="432" width="235" height="22" fill="#fff1f2" stroke="#fca5a5" stroke-width="1" rx="5"/>
+  <text x="1362" y="447" text-anchor="middle" fill="#b91c1c" font-size="10.5" font-weight="600" font-family="Noto Sans TC">I → G：概念教學或故事結構不清楚（回腳本）</text>
+
+  <!-- Loop 8: I -> C (Independent audit finds scholarly/perspective error) -->
+  <path d="M 1558 329 L 1558 546 L 420 546 L 420 322" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="420.0,320.5 425.5,332.5 414.5,332.5" fill="#dc2626"/>
+  <rect x="830" y="533" width="310" height="22" fill="#fff1f2" stroke="#fca5a5" stroke-width="1" rx="5"/>
+  <text x="985" y="548" text-anchor="middle" fill="#b91c1c" font-size="10.5" font-weight="600" font-family="Noto Sans TC">I → C：獨立盲審發現學術歸因或觀點錯置（退回 Claim 修正）</text>
+
+  <!-- ===================================================================== -->
+  <!-- FRAME 1 BOTTOM LEFT: LEGEND & BOTTOM RIGHT: DEFINITION OF DONE        -->
+  <!-- ===================================================================== -->
+  <g transform="translate(50, 580)">
+    <rect width="880" height="145" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" rx="12"/>
+    <text x="18" y="26" fill="#475569" font-size="13" font-weight="700" letter-spacing="1.04" font-family="Noto Sans TC">LEGEND（節點顏色、形狀與路由圖例）</text>
+    <rect x="18" y="42" width="24" height="16" fill="#dbeafe" stroke="#2563eb" stroke-width="2.2" rx="12"/>
+    <text x="50" y="54" fill="#334155" font-size="11.5" font-family="Noto Sans TC">藍色圓角矩形：AI 執行節點（Claim 抽取、HTML 建置）</text>
+    <rect x="18" y="68" width="24" height="16" fill="#f3e8ff" stroke="#9333ea" stroke-width="2.2" rx="12"/>
+    <text x="50" y="80" fill="#334155" font-size="11.5" font-family="Noto Sans TC">紫色圓角矩形：Wiki / 資料保存節點（來源 Ingest、Wiki 雙向連結與 Lint）</text>
+    <polygon points="30,94 42,104 30,114 18,104" fill="#fef3c7" stroke="#d97706" stroke-width="2.4"/>
+    <text x="50" y="108" fill="#334155" font-size="11.5" font-family="Noto Sans TC">琥珀色菱形：檢查／判斷關卡（Gate D、Gate E、Gate I）</text>
+
+    <rect x="470" y="42" width="24" height="16" fill="#dcfce7" stroke="#16a34a" stroke-width="2.2" rx="10"/>
+    <text x="502" y="54" fill="#334155" font-size="11.5" font-family="Noto Sans TC">綠色矩形：通過關卡之教學腳本與證據交付物</text>
+    <rect x="470" y="68" width="24" height="16" fill="#f1f5f9" stroke="#64748b" stroke-width="2.2" rx="10"/>
+    <text x="502" y="80" fill="#334155" font-size="11.5" font-family="Noto Sans TC">深灰色框：人工確認或外部公開服務（需求定案、部署與公開權限確認）</text>
+    <line x1="470" y1="104" x2="496" y2="104" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5" fill="none"/><polygon points="497.5,104.0 485.5,109.5 485.5,98.5" fill="#dc2626"/>
+    <text x="502" y="108" fill="#334155" font-size="11.5" font-family="Noto Sans TC">紅色虛線：局部錯誤返回路線（只退回責任節點，每類錯誤最多重試 3 次）</text>
+    <text x="18" y="132" fill="#475569" font-size="10.5" font-family="Noto Sans TC">隔離原則（Audit Isolation）：節點 I 的獨立審查只讀成品（HTML/Wiki）、原始來源紀錄與規則，不讀生成者的自評或隱含推理。</text>
+  </g>
+
+  <g transform="translate(955, 580)">
+    <rect width="915" height="145" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" rx="12"/>
+    <text x="18" y="26" fill="#475569" font-size="13" font-weight="700" letter-spacing="1.04" font-family="Noto Sans TC">DEFINITION OF DONE（完成定義與停止線）</text>
+    <text x="18" y="50" fill="#334155" font-size="11.5" font-family="Noto Sans TC">1. 來源證據鏈：至少 5 篇不同來源實際讀取可查核內容，具精確章節／段落錨點、存取時間與 SHA-256（quality_gate.py --strict PASS）。</text>
+    <text x="18" y="72" fill="#334155" font-size="11.5" font-family="Noto Sans TC">2. 雙重邊界守門：Self 2（他人實際評價）≠ Self 3（當事人推測）；Self 4 為開放哲學提問；四面鏡絕不冒充佛教原典或 Cooley 分類。</text>
+    <text x="18" y="94" fill="#334155" font-size="11.5" font-family="Noto Sans TC">3. 教學與工程驗證：12 幕互動、三分支、回放、小測驗、五蘊互動與來源抽屜於桌機／手機瀏覽器實測通過，虛構情境明確標記。</text>
+    <text x="18" y="116" fill="#334155" font-size="11.5" font-family="Noto Sans TC">4. 執行證據：tests/ 保存每次檢查的實際輸出（PASS／FAIL）；區分自然錯誤與合成 fixtures。</text>
+    <text x="18" y="136" fill="#475569" font-size="10.5" font-family="Noto Sans TC">5. 人工簽核發布：簡報與 Wiki 網頁經人工確認內容與來源授權後才公開。</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- FRAME 2: Learning Concept Map (Pedagogical Companion — Not Workflow)  -->
+  <!-- ===================================================================== -->
+  <rect x="30" y="762" width="1860" height="288" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" rx="16"/>
+  <text x="52" y="790" fill="#475569" font-size="13" font-weight="700" letter-spacing="1.04" font-family="Noto Sans TC">FRAME 2 — LEARNING CONCEPT MAP（可選教學概念輔圖：展示《第四面鏡》教學內容架構，與上方工程 Workflow Graph 嚴格區分）</text>
+
+  <!-- Concept 1: Self 1 -->
+  <g transform="translate(52, 812)">
+    <rect width="340" height="145" fill="#dbeafe" stroke="#2563eb" stroke-width="2.2" rx="12"/>
+    <text x="16" y="26" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">MIRROR 01 · 教學標籤（S02）</text>
+    <text x="16" y="50" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Self 1：我眼中的自己（自我認知）</text>
+    <text x="16" y="76" fill="#334155" font-size="11.5" font-family="Noto Sans TC">• 主體對自身特質、動機與角色的陳述</text>
+    <text x="16" y="98" fill="#334155" font-size="11.5" font-family="Noto Sans TC">• 故事示例：「我花三小時整理簡報是為了幫大家」</text>
+    <text x="16" y="122" fill="#475569" font-size="10.5" font-family="Noto Sans TC">認知邊界：真誠的自述不等於他人實際收到的感受（Claim C01）</text>
+  </g>
+
+  <!-- Concept 2: Self 2 -->
+  <g transform="translate(422, 812)">
+    <rect width="360" height="145" fill="#dcfce7" stroke="#16a34a" stroke-width="2.2" rx="10"/>
+    <text x="16" y="26" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">MIRROR 02 · 他人實際觀點（S02, S03）</text>
+    <text x="16" y="50" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Self 2：別人實際眼中的我（他人評價）</text>
+    <text x="16" y="76" fill="#334155" font-size="11.5" font-family="Noto Sans TC">• 必須有他人的直接陳述或外部研究量測</text>
+    <text x="16" y="98" fill="#334155" font-size="11.5" font-family="Noto Sans TC">• 故事示例：A 覺得可靠；B 覺得協作空間不足</text>
+    <text x="16" y="122" fill="#475569" font-size="10.5" font-family="Noto Sans TC">認知邊界：不同他人評價可彼此不同，不可由猜測替代（Claim C02）</text>
+  </g>
+
+  <!-- Concept 3: Self 3 -->
+  <g transform="translate(812, 812)">
+    <rect width="380" height="145" fill="#f3e8ff" stroke="#9333ea" stroke-width="2.2" rx="12"/>
+    <text x="16" y="26" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">MIRROR 03 · 後設知覺 Metaperception（S01, S02, S03）</text>
+    <text x="16" y="50" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Self 3：我以為別人怎麼看我</text>
+    <text x="16" y="76" fill="#334155" font-size="11.5" font-family="Noto Sans TC">• 主體對他人看法的推測（Cooley: imagined judgment）</text>
+    <text x="16" y="98" fill="#334155" font-size="11.5" font-family="Noto Sans TC">• 故事示例：「已讀不回＝他們是不是討厭我的報告？」</text>
+    <text x="16" y="122" fill="#475569" font-size="10.5" font-family="Noto Sans TC">核心紅線：Self 3 ≠ Self 2；推測會影響行動但非既定事實（C03–C05）</text>
+  </g>
+
+  <!-- Concept 4: Self 4 & Buddhist Dialogue -->
+  <g transform="translate(1235, 812)">
+    <rect width="630" height="145" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2.4"/>
+    <text x="18" y="26" fill="#92400e" font-size="12" font-weight="800" font-family="Noto Sans TC">MIRROR 04 · 開放式哲學提問（S04 個人同一性 × S05, S06 佛教五蘊與無我）</text>
+    <text x="18" y="50" fill="#0f172a" font-size="13" font-weight="700" font-family="Noto Sans TC">Self 4：如果三面鏡子說的都不一樣，那麼「我是誰」？</text>
+    <text x="18" y="76" fill="#334155" font-size="11.5" font-family="Noto Sans TC">• 西方哲學區分：我是哪種人（Characterization）vs. 跨時間同一人（Persistence / Ontology, S04）</text>
+    <text x="18" y="98" fill="#334155" font-size="11.5" font-family="Noto Sans TC">• 佛教無我追問：色、受、想、行、識五蘊無常、非我、不可任意主宰（SN 22.59, S05；身心動態過程, S06）</text>
+    <text x="18" y="122" fill="#475569" font-size="10.5" font-family="Noto Sans TC">學術紅線：Self 4 是哲學提問而非第四種人格類型；無我 ≠ 人不存在；四面鏡為本作教學設計而非佛教原典（C06–C10）</text>
+  </g>
+
+  <line x1="392" y1="884" x2="420" y2="884" stroke="#64748b" stroke-width="2.2" fill="none"/><polygon points="421.5,884.0 409.5,889.5 409.5,878.5" fill="#64748b"/>
+  <line x1="782" y1="884" x2="810" y2="884" stroke="#64748b" stroke-width="2.2" fill="none"/><polygon points="811.5,884.0 799.5,889.5 799.5,878.5" fill="#64748b"/>
+  <line x1="1192" y1="884" x2="1233" y2="884" stroke="#16a34a" stroke-width="2.2" fill="none"/><polygon points="1234.5,884.0 1222.5,889.5 1222.5,878.5" fill="#16a34a"/>
+
+  <!-- Footer Note inside Frame 2 -->
+  <text x="52" y="988" fill="#475569" font-size="12" font-family="Noto Sans TC">【圖說】本專案以觀點來源（Perspective Provenance）為主軸，而非固定線性簡報生成器。資料先經 Claim 抽取，再由觀點邊界（Gate D）與佛教歸因／原文證據（Gate E）兩道關卡檢查，</text>
+  <text x="52" y="1010" fill="#475569" font-size="12" font-family="Noto Sans TC">通過後才允許進入 Wiki 與互動情境。測試或獨立審查若指出不同錯誤，Graph 只返回相應上游節點（D→C, E→B/C, F→C/F, I→G/H/C），減少整份重做。</text>
+</svg>

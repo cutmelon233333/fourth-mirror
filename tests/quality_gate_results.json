@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "mode": "development",
+  "registered_sources": 6,
+  "verified_content_ingests": 6,
+  "verified_ingest_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06"
+  ],
+  "claim_count": 11,
+  "scene_count": 12,
+  "checks": [
+    {
+      "id": "source_registry",
+      "passed": true,
+      "description": "來源登記有 6 筆（不代表已 ingest）"
+    },
+    {
+      "id": "source_ids_unique",
+      "passed": true,
+      "description": "來源登記 ID 唯一"
+    },
+    {
+      "id": "manifest_covers_registry",
+      "passed": true,
+      "description": "ingest 清單涵蓋來源登記"
+    },
+    {
+      "id": "scene_map_indices",
+      "passed": true,
+      "description": "12 幕各有唯一索引"
+    },
+    {
+      "id": "scene_map_refs",
+      "passed": true,
+      "description": "逐幕 Claim ID / Source ID 均存在"
+    },
+    {
+      "id": "scene_claim_source_coverage",
+      "passed": true,
+      "description": "逐幕 source_ids 與其 claim_ids 所需來源集合完全一致（不一致幕：[]）"
+    },
+    {
+      "id": "wiki_concept_source_sync",
+      "passed": true,
+      "description": "Wiki 概念頁 source_ids 與 claim_ids 完全一致（不一致：[]）"
+    },
+    {
+      "id": "no_unrendered_latex_wiki",
+      "passed": true,
+      "description": "slides/wiki.html 無未渲染之 $k = ...$ LaTeX 語法"
+    },
+    {
+      "id": "wiki_html_valid_json_data",
+      "passed": true,
+      "description": "slides/wiki.html 內嵌 DATA 為合法單行 JSON（無未跳脫換行，含 15 頁區塊、11 條 Claim、6 筆來源）"
+    },
+    {
+      "id": "deck_12_scenes",
+      "passed": true,
+      "description": "HTML 仍有 12 幕"
+    },
+    {
+      "id": "source_drawer",
+      "passed": true,
+      "description": "逐頁來源面板存在"
+    },
+    {
+      "id": "scene_refs_in_sync",
+      "passed": true,
+      "description": "來源面板和逐頁地圖一致（不一致頁：[]）"
+    },
+    {
+      "id": "deck_aggregate_aria_pressed",
+      "passed": true,
+      "description": "五蘊互動按鈕具備 aria-pressed 無障礙屬性"
+    },
+    {
+      "id": "deck_valid_p_nesting",
+      "passed": true,
+      "description": "wikiSourceTags 未錯誤嵌於 <p> 標籤內"
+    },
+    {
+      "id": "deck_bibliography_scope_disclosure",
+      "passed": true,
+      "description": "deck.html 文獻面板誠實揭露 S02 與 S03 之 PubMed 摘要驗證範圍"
+    }
+  ],
+  "warnings": [],
+  "issues": []
+}

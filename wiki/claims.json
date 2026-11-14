@@ -1,0 +1,128 @@
+[
+  {
+    "id": "C01",
+    "claim": "Self 1 指個人如何描述和認識自己；名稱是本作的教學標籤。",
+    "kind": "editorial",
+    "sources": [
+      "S02"
+    ],
+    "wiki": "自我認知",
+    "view": "self1",
+    "evidence": "S02 PubMed 摘要（PMID 34352724）首句區分對自身特質與能力的信念（beliefs about one's own traits and abilities）與後設知覺（metaperceptions）；Self 1 為本作教學標籤。"
+  },
+  {
+    "id": "C02",
+    "claim": "Self 2 指他人實際對當事人的看法，必須有他人的直接陳述或研究量測，不可由當事人的猜測替代。",
+    "kind": "operational-definition",
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "wiki": "他人評價",
+    "view": "self2",
+    "evidence": "S02 摘要（PMID 34352724）將他人實際社會知覺（social perceptions）作為檢驗後設知覺的準則（accuracy criterion）；S03 結構化摘要（PMID 42083441）定義 meta-accuracy 為推論他人實際知覺的程度。"
+  },
+  {
+    "id": "C03",
+    "claim": "Self 3 指個人推測別人如何看待自己；這類推測屬後設知覺，不必然等同他人實際評價。",
+    "kind": "scholarly-synthesis",
+    "sources": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "wiki": "後設知覺",
+    "view": "self3",
+    "evidence": "S01〈The Looking-Glass Self〉（1902, pp. 183–184）中的 imagined judgment / imputed sentiment；S02（PMID 34352724）與 S03（PMID 42083441）對 metaperceptions 與 meta-accuracy 的區分。"
+  },
+  {
+    "id": "C04",
+    "claim": "Cooley 的鏡中自我包含想像自己呈現在他人眼中的樣子、想像他人的評價以及自我感受。",
+    "kind": "scholarly",
+    "sources": [
+      "S01"
+    ],
+    "wiki": "鏡中自我",
+    "view": "bridge",
+    "evidence": "S01〈The Looking-Glass Self〉（1902, p. 184；1922, p. 152）明確列出三要素：imagination of our appearance to the other person、imagination of his judgment of that appearance、self-feeling (pride or mortification)。"
+  },
+  {
+    "id": "C05",
+    "claim": "研究 metaperception 準確性時，方法與關係情境必須分辨，不能宣稱所有人的猜測總是錯誤。",
+    "kind": "scholarly-synthesis",
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "wiki": "後設知覺",
+    "view": "self3",
+    "evidence": "S02 摘要（PMID 34352724）指出相關性與平均偏誤兩種準則並無絕對優劣；S03 結構化摘要（PMID 42083441, Results & Conclusion）指出納入的 93 篇研究中，採雙人後設準確度（DMA）取向者占 60.2%（k = 56）、一般化（GMA）取向者占 18.3%（k = 17）——此為研究取向的分布比例，不是準確率；DMA 與 GMA 研究在互動場域與熟識程度上有所不同，測量方式也因研究而異，且 94.6% 為橫斷面研究、64.5% 為大專學生樣本。"
+  },
+  {
+    "id": "C06",
+    "claim": "Self 4 在本作是由前三個視角引出的哲學提問，而非已證明的第四種心理結構。",
+    "kind": "editorial",
+    "sources": [
+      "S04"
+    ],
+    "wiki": "第四面鏡",
+    "view": "self4",
+    "evidence": "S04（SEP Personal Identity, Preamble & §1 `#ProbPersIden`）區分心理特質認同（characterization）與跨時間存續／形上學問題（persistence / personal ontology）；Self 4 為本作教學提問。"
+  },
+  {
+    "id": "C07",
+    "claim": "一個人的社會形象與個人同一性是相互關聯但不等同的哲學問題。",
+    "kind": "scholarly-synthesis",
+    "sources": [
+      "S04"
+    ],
+    "wiki": "個人同一性",
+    "view": "self4",
+    "evidence": "S04 Section 1（`#ProbPersIden`）明確區分 Characterization Question（哪些特質定義了我這個人，具偶連與可變性）與 Persistence Question（什麼條件使前後時間的存在者為數值上同一人）。"
+  },
+  {
+    "id": "C08",
+    "claim": "《無我相經》對色、受、想、行、識五蘊逐一說明其非我性。",
+    "kind": "scholarly",
+    "sources": [
+      "S05"
+    ],
+    "wiki": "佛教無我",
+    "view": "buddhist",
+    "evidence": "S05 SN 22.59（PTS S iii 66，Ñāṇamoli 英譯第 2–16 段）逐一對 form、feeling、perception、determinations、consciousness 論證其非我、不可任意主宰與無常變易。"
+  },
+  {
+    "id": "C09",
+    "claim": "佛教無我不應簡化為否定日常經驗、人格與倫理責任，需謹慎討論實體自我與經驗過程。",
+    "kind": "interpretive-synthesis",
+    "sources": [
+      "S05",
+      "S06"
+    ],
+    "wiki": "佛教無我",
+    "view": "buddhist",
+    "evidence": "S05 否定把五蘊執為恆常自我；S06 Preamble、§1.1（`#1.1`）與 §2.3（`#2.3`）說明佛教以五蘊因果相續過程取代獨立實體自我（kartṛ/ātman），並詳述部派與當代學者對業力責任與無我詮釋之討論。"
+  },
+  {
+    "id": "C10",
+    "claim": "四面鏡不是任何佛教經典的正式四分法；是本次簡報整合不同研究領域的自創教學框架。",
+    "kind": "editorial",
+    "sources": [
+      "S01",
+      "S04",
+      "S05"
+    ],
+    "wiki": "第四面鏡",
+    "view": "meta",
+    "evidence": "跨來源核對 S01（鏡中自我三要素）、S04（個人同一性問題分類）、S05（五蘊非我）及本作教學設計聲明；任何原典均無 Self 1–4 四面鏡分法。"
+  },
+  {
+    "id": "C11",
+    "claim": "小組聊天室、三份證詞以及觀眾選擇導致的分支結果皆為虛構教學模擬，不是實證研究結果。",
+    "kind": "fiction",
+    "sources": [],
+    "wiki": "情境實驗",
+    "view": "scenario",
+    "evidence": "本專案原創教學情境腳本（明確與 S01–S06 實證／文獻證據分離）。"
+  }
+]

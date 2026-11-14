@@ -1,0 +1,179 @@
+[
+  {
+    "scene_index": 0,
+    "scene_number": 1,
+    "title": "封面",
+    "claim_ids": [
+      "C06",
+      "C10"
+    ],
+    "source_ids": [
+      "S01",
+      "S04",
+      "S05"
+    ],
+    "fictional_scene": false
+  },
+  {
+    "scene_index": 1,
+    "scene_number": 2,
+    "title": "已讀不回（虛構）",
+    "claim_ids": [
+      "C11"
+    ],
+    "source_ids": [],
+    "fictional_scene": true
+  },
+  {
+    "scene_index": 2,
+    "scene_number": 3,
+    "title": "Self 1",
+    "claim_ids": [
+      "C01",
+      "C11"
+    ],
+    "source_ids": [
+      "S02"
+    ],
+    "fictional_scene": false
+  },
+  {
+    "scene_index": 3,
+    "scene_number": 4,
+    "title": "Self 2",
+    "claim_ids": [
+      "C02",
+      "C11"
+    ],
+    "source_ids": [
+      "S02",
+      "S03"
+    ],
+    "fictional_scene": false
+  },
+  {
+    "scene_index": 4,
+    "scene_number": 5,
+    "title": "Self 3",
+    "claim_ids": [
+      "C03",
+      "C04",
+      "C05",
+      "C11"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "fictional_scene": false
+  },
+  {
+    "scene_index": 5,
+    "scene_number": 6,
+    "title": "行動選擇（虛構）",
+    "claim_ids": [
+      "C11"
+    ],
+    "source_ids": [],
+    "fictional_scene": true
+  },
+  {
+    "scene_index": 6,
+    "scene_number": 7,
+    "title": "故事分支（虛構）",
+    "claim_ids": [
+      "C03",
+      "C11"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "fictional_scene": true
+  },
+  {
+    "scene_index": 7,
+    "scene_number": 8,
+    "title": "回看分支",
+    "claim_ids": [
+      "C03",
+      "C11"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "fictional_scene": true
+  },
+  {
+    "scene_index": 8,
+    "scene_number": 9,
+    "title": "區分三種視角",
+    "claim_ids": [
+      "C01",
+      "C02",
+      "C03",
+      "C10"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "fictional_scene": false
+  },
+  {
+    "scene_index": 9,
+    "scene_number": 10,
+    "title": "Self 4",
+    "claim_ids": [
+      "C06",
+      "C07",
+      "C10"
+    ],
+    "source_ids": [
+      "S01",
+      "S04",
+      "S05"
+    ],
+    "fictional_scene": false
+  },
+  {
+    "scene_index": 10,
+    "scene_number": 11,
+    "title": "無我與五蘊",
+    "claim_ids": [
+      "C08",
+      "C09",
+      "C10"
+    ],
+    "source_ids": [
+      "S01",
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "fictional_scene": false
+  },
+  {
+    "scene_index": 11,
+    "scene_number": 12,
+    "title": "開放式結尾",
+    "claim_ids": [
+      "C06",
+      "C10",
+      "C11"
+    ],
+    "source_ids": [
+      "S01",
+      "S04",
+      "S05"
+    ],
+    "fictional_scene": true
+  }
+]
